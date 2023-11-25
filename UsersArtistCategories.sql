@@ -73,7 +73,23 @@
 --JOIN Artists AS A ON M.ArtistID = A.ArtistID;
 
 
+--ALTER TABLE Musics
+--ADD COLUMN IsDeleted BOOLEAN DEFAULT false;
 
+--UPDATE Musics
+--SET IsDeleted = true
+--WHERE MusicID ='Emre Aydin - Howcakal'
+
+--DELETE FROM Musics
+--WHERE MusicID ='Emre Aydin - Howcakal '
+
+
+
+
+
+
+
+-- Qeyd: Datalari insertle daxil etmek vaxt alir deye cedvele elle daxil etmiwem mellim :(
 
 
 
